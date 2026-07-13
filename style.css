@@ -202,6 +202,9 @@ nav .nav-item a:hover{
     color: #FFFFFF;
     opacity: 0.8;
 }
+#line-two{
+    opacity: 0.1;
+}
 .card-section .card .suscription{
     font-family: "Inter", sans-serif;
     font-size: 13px;
