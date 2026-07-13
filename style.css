@@ -56,19 +56,20 @@ nav .nav-item a:hover{
     object-fit: cover;
 }
 .hero-section .hero-content h1{
-    font-size: 60px;
+    font-size: 80px;
     color: white;
     margin-bottom: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
 }
 .hero-section .hero-content p{
-    font-size: 20px;
-    color: white;
+    font-size: 22px;
+    color: #e5e7ebFF;
     margin-bottom: 20px;
     text-align: center;
-    font-weight: 400;
     opacity: 0.9;
+    font-family: "Inter", sans-serif;
 }
 .hero-content .hero-btn{
     background-color: #1D4ED8;
@@ -98,6 +99,7 @@ nav .nav-item a:hover{
     font-weight: bold;
     padding: 20px 0;
     margin-top: 50px;
+    font-family: "Inter", sans-serif;
 }
 .section-two .parsons{
     display: flex;
@@ -128,9 +130,133 @@ nav .nav-item a:hover{
 .section-two .parson h2{
     font-weight: bold;
     margin: 15px 20px;
+    font-family: "Inter", sans-serif;
 }
 .section-two .parson .dejignation{
     color: #575757;
     margin: 15px 20px;
 }
         /* section Two  */
+        /* card section  */
+.card-section{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.card-section .card-header{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin: 20px 0px;
+    color: #0d1b2aFF;
+    line-height: 60px;
+}
+.card-section .card-p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400px;
+    color: #575757FF;
+}
+.card-section .cards{
+    display: flex;
+    width: 1320px;
+    height: auto;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.card-section .card{
+    border: 1px solid #e5e7ebFF;
+    padding: 20px 50px;
+    border-radius: 10px;
+    height: auto;
+    width: 370px;
+}
+.card-section .card .suscription{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600px;
+    color: #888888;
+    padding: 5px 0px;
+}
+.card-section .card h1{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: 700px;
+    color: #0D1B2A;
+    padding-bottom: 3px;
+}
+.card-section .card p{
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 400px;
+    color: #888888;
+    padding-bottom: 25px;
+}
+.card-section .card .line{
+    width: 350px;
+    height: 1px;
+    background: #e5e7ebFF;
+    margin-left: -18px;
+    margin-bottom: 30px;
+}
+.card-section .card ul{
+    
+}
+.card-section .card li::marker{
+    width: 7px;
+    height: 21px;
+    color: #2563EB;
+}
+.card-section .card li{
+    margin: 15px 0px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.card-section .card .card-btn-one{
+    width: 100%;
+    height: 45px;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    background-color: white;
+    margin-top:25px ;
+    margin-bottom: 30px;
+    font-family:"Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-section .card .card-btn-two{
+    width: 100%;
+    height: 45px;
+    color: #FFFFFFFF;
+    border-radius: 8px;
+    background-color: #2563EB;
+    margin-top:25px ;
+    margin-bottom: 30px;
+    font-family:"Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.card-section .card .card-btn-three{
+    width: 100%;
+    height: 45px;
+    color: #0D1B2A;
+    border-radius: 8px;
+    background-color: white;
+    margin-top:25px ;
+    margin-bottom: 30px;
+    font-family:"Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #0D1B2A;
+}
+/* card section  */
