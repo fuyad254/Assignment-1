@@ -177,6 +177,31 @@ nav .nav-item a:hover{
     height: auto;
     width: 370px;
 }
+.card-section .card2{
+    background-color: #0D1B2A;
+}
+.card-two-h1{
+    font-family: "Inter", sans-serif;
+    font-size: 44px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    padding-bottom: 3px;
+}
+.card-two-p2{
+    color: #FFFFFF;
+    opacity: 1;
+}
+.card-section .card2 .card-two-p{
+    color: #93C5FD;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 600px;
+    padding: 5px 0px;
+}
+#card-two-ul li{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
 .card-section .card .suscription{
     font-family: "Inter", sans-serif;
     font-size: 13px;
