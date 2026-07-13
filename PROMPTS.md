@@ -1,0 +1,1 @@
+Imagine you are a professional web developer. I am going to show you an image of a website. Please look at it and—explaining things as if to a beginner—tell me what I could place in a specific empty section. Also, explain the purpose of that section and how to implement it.
